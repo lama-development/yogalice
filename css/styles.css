@@ -256,6 +256,7 @@ header {
 
 .card-text {
     font-size: 1rem;
+    opacity: .75;
 }
 
 /* Banner */
@@ -364,6 +365,12 @@ header {
         flex-direction: column;
     }
 
+    .hamburger-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .landing-container {
         padding: 40% 20px;
     }
@@ -376,10 +383,22 @@ header {
         font-size: .9rem;
     }
 
-    .hamburger-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .card-title {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        font-size: .8rem;
+    }
+
+    .card {
+        margin: 0 .75rem;
+        padding: 1rem;
+    }
+
+    .card-img-top {
+        height: 80px;
     }
 
     .banner-container {
