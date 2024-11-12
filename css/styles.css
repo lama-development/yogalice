@@ -229,13 +229,13 @@ header {
 
 /* Cards */
 .card-group {
-    padding: 30px;
+    padding: 5rem 15%;
 }
 
 .card {
-    margin: 0 2rem;
-    height: max-content;
-    padding: 1rem;
+    margin: 0 1rem;
+    height: auto;
+    padding: 1.5rem;
     border-radius: 10px !important;
     background-color: var(--navbarBg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -277,7 +277,7 @@ header {
 }
 
 /* Media queries */
-@media(max-width: 1100px) {
+@media(max-width: 1200px) {
     .header-label {
         font-size: 1.25rem;
     }
@@ -303,6 +303,24 @@ header {
         width: 600px;
         height: 400px;
     }
+
+    .card {
+        margin: 0 1rem;
+        padding: 1rem;
+    }
+
+    .card-img-top {
+        height: 75px;
+    }
+    
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: .8rem;
+    }
+    
 }
 
 @media(max-width: 900px) {
@@ -398,7 +416,7 @@ header {
     }
 
     .card-img-top {
-        height: 80px;
+        height: 75px;
     }
 
     .banner-container {
