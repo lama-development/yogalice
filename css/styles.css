@@ -276,6 +276,10 @@ header {
     border: 3px solid white;
 }
 
+.accordion {
+    padding: 0 15%;
+}
+
 /* Media queries */
 @media(max-width: 1200px) {
     .header-label {
