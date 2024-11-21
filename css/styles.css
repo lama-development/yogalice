@@ -36,10 +36,6 @@ a {
     text-decoration: none !important;
 }
 
-button {
-    cursor: pointer;
-}
-
 span {
     color: var(--accent);
 }
@@ -110,6 +106,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    margin-left: 3rem;
 }
 
 .header-logo {
@@ -225,6 +222,7 @@ header {
     line-height: 1.5;
     margin: 2rem;
     color: --var(--accent2);
+    margin-bottom: 3rem;
 }
 
 /* Cards */
@@ -276,12 +274,12 @@ header {
     border: 3px solid white;
 }
 
-.accordion {
-    padding: 0 15%;
-}
-
 /* Media queries */
 @media(max-width: 1200px) {
+    .header-container {
+        margin-left: 5px;
+    }
+    
     .header-label {
         font-size: 1.25rem;
     }
@@ -289,6 +287,7 @@ header {
     .header-pages a {
         font-size: .9rem;
         padding: 10px;
+        margin-left: 5px;
     }
 
     .header-btn {
@@ -323,6 +322,19 @@ header {
     
     .card-text {
         font-size: .8rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-index {
+        margin-top: 20px;
+    }
+
+    .footer-social {
+        margin-top: 50px;
     }
     
 }
@@ -426,6 +438,28 @@ header {
     .banner-container {
         width: 400px;
         height: 300px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    
+    .index-list {
+        grid-template-columns: 1fr;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .footer-social {
+        margin-top: 50px;
     }
 
 }

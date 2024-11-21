@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/logo.png">
 </head>
@@ -22,8 +24,8 @@
     <header class="header" id="header">
         <!-- Logo -->
         <div class="header-brand">
-            <a href="."><img class="header-logo" src="img/logo.png" alt="logo image"></a>
-            <a href="."><h1 class="header-label">Yogalice</h1></a>
+            <a href="index.html"><img class="header-logo" src="img/logo.png" alt="logo image"></a>
+            <a href="index.html"><h1 class="header-label">Yogalice</h1></a>
         </div>
         <!-- Pagine navbar -->
         <div class="header-container">
@@ -56,8 +58,8 @@
             <h1 class="landing-title">Abbraccia la tranquillità<br>attraverso lo <span>Yoga</span></h1>
             <p class="landing-subtitle">Esplora il tuo equilibrio interiore e scopri la serenità in ogni respiro.</p>
             <div class="landing-btn-container">
-                <button class="btn-primary">I nostri corsi</button>
-                <button class="btn-secondary">Chi siamo</button>
+                <a href="html/courses.html" class="btn-primary">I nostri corsi</a>
+                <a href="html/about.html" class="btn-secondary">Chi siamo</a>
             </div>
         </div>
     </section>
@@ -139,7 +141,46 @@
     </section>
 
     <!-- Sezione Footer -->
+    <footer>
+        <div class="footer-container">
+        <!-- Logo e Nome -->
+        <div class="footer-logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo Yogalice" class="logo"></a>
+            <a href="index.html"><span class="brand-name">Yogalice</span></a>
+        </div>
     
+        <!-- Sezione Index -->
+        <div class="footer-index">
+            <h3>Indice</h3>
+            <ul class="index-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/about.html">Chi siamo</a></li>
+                <li><a href="html/courses.html">Corsi</a></li>
+                <li><a href="html/trainers.html">Trainers</a></li>
+                <li><a href="html/blog.html">Blog</a></li>
+                <li><a href="html/contacts.html">Contatti</a></li>
+                <li><a href="html/booking.html">Prenota</a></li>
+            </ul>
+        </div>
+    
+        <!-- Sezione Social Media -->
+        <div class="footer-social">
+            <h3>Seguici su</h3>
+            <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="X"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        </div>
+
+        <hr class="solid">
+    
+        <!-- Copyright -->
+        <div class="footer-copyright">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Yogalice. All rights reserved.</p>
+        </div>
+    </footer>
 
     <!-- Javascript -->
     <script src="js/main.js"></script>
