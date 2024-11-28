@@ -230,12 +230,18 @@ header {
 }
 
 /* Cards */
-.card-group {
-    padding: 5rem 15%;
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.card {
-    margin: 0 1rem;
+.card-group {
+    padding: 5rem;
+}
+
+.card { 
+    margin-right: 2rem;
     height: auto;
     padding: 1.5rem;
     border-radius: 10px !important;
@@ -292,7 +298,7 @@ header {
 
 /* Accordion */
 .accordion {
-    margin: 3rem 15%;
+    margin: 5% 15%;
     border-radius: 10px;
 }
 
@@ -301,6 +307,15 @@ header {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: var(--navbarBg);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+}
+
+button.accordion-button:focus{
+    box-shadow: inherit;
 }
 
 .accordion-header {
