@@ -45,6 +45,10 @@ body {
     background: linear-gradient(90deg, var(--bgColor1) 0%, var(--bgColor2) 50%, var(--bgColor3) 100%);
 }
 
+main {
+    padding: 3rem 15%;
+}
+
 /* Buttons */
 .btn-primary {
     background-color: var(--accent);
@@ -274,8 +278,9 @@ header {
     border: 3px solid white;
 }
 
+/* FAQ */
 .faq-section {
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .title-container {
@@ -308,6 +313,79 @@ header {
 
 .accordion-header {
     border-radius: 10px;
+}
+
+/* Contact */
+.contact-info, .map-section, .contact-form {
+    margin-bottom: 4em;
+    padding: 2em;
+    background: var(--navbarBg);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2, .map-section h2, .contact-form h2 {
+    margin-bottom: 1em;
+    color: var(--accent);
+    font-weight: var(--bold)
+}
+
+.contact-info ul,
+.map-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li,
+.map-section li {
+    margin-bottom: 0.5em;
+}
+
+.contact-info a,
+.map-section a {
+    color: var(--accent2);
+}
+
+.contact-info a:hover,
+.map-section a:hover {
+    text-decoration: underline !important;
+    color: var(--accent);
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent2);
+}
+
+textarea {
+    resize: none;
 }
 
 /* Footer */
