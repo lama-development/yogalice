@@ -267,21 +267,24 @@ header {
     opacity: .75;
 }
 
-/* Banner */
-.banner-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Carousel */
+.carousel {
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    height: 700px;
 }
 
-.banner-container {
-    width: 800px;
-    height: 500px;
-    background-image: url("../img/banner.jpg");
-    background-size: cover;
+.carousel-inner {
+    height: 100%;
     border-radius: 20px;
     margin: 1rem;
     border: 3px solid white;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
 }
 
 /* FAQ */
@@ -290,6 +293,7 @@ header {
 }
 
 .section-title {
+    margin-bottom: 4rem;
     text-align: center;
     color: var(--accent);
     font-size: 3rem;
@@ -298,7 +302,9 @@ header {
 
 /* Accordion */
 .accordion {
-    margin: 5% 15%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 8rem;
     border-radius: 10px;
 }
 
@@ -576,7 +582,7 @@ textarea:focus {
 .trainers-banner {
     border-radius: 10px;
     position: relative;
-    background-image: url("../img/banner-2.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
