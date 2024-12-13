@@ -664,6 +664,218 @@ textarea:focus {
     color: var(--accent);
 }
 
+/* Trainers Section */
+.trainers-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.trainers-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: var(--bold);
+}
+
+.trainers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.trainer-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 2rem;
+}
+
+.trainer-card:hover {
+    transform: translateY(-10px);
+}
+
+.trainer-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trainer-card h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: var(--semibold);
+}
+
+.trainer-card p {
+    font-size: 1rem;
+    padding: 0 1rem 0;
+    color: var(--textMain);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: var(--bold);
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.testimonial-card .testimonial-stars {
+    font-style: normal;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: var(--textMain);
+    font-style: italic;
+}
+
+.testimonial-card h4 {
+    font-size: 1.2rem;
+    font-weight: var(--semibold);
+    color: var(--accent);
+}
+
+/* Courses Section */
+.courses-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.courses-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: var(--bold);
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 2rem;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+
+.course-card h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: var(--semibold);
+}
+
+.course-card p {
+    font-size: 1rem;
+    padding: 0 15px 20px;
+    color: var(--textMain);
+}
+
+.course-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: var(--accent);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.course-btn:hover {
+    background-color: var(--accentDark);
+}
+
+/* Benefits Section */
+.benefits-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.benefits-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: var(--bold);
+}
+
+.benefits-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.benefit-card i {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 15px;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: var(--semibold);
+}
+
+.benefit-card p {
+    font-size: 1rem;
+    color: var(--textMain);
+}
+
 /* Footer */
 footer {
     background-color: var(--accent2);
